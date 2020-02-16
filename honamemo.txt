@@ -6,9 +6,19 @@ git commit --amend
 > $ git commit --amend -m "cssを修正"
 
 # ローカルファイルをgithubにアップロードする
-1.githubを開く
-2.管理画面からUpload filesを押す
-3.対象ファイルをドラッグ＆ドロップ
-4.コミットメッセージを記入する
-5.コミット
+1. githubを開く
+2. 管理画面からUpload filesを押す
+3. 対象ファイルをドラッグ＆ドロップ
+4. コミットメッセージを記入する
+5. コミット
+
+# githubからクローン
+1. githubのclone or downloadを押す
+2. urlをコピー
+3. git bash等で $ git clone https://github.com/honamu/documents.git
+
+# githubへプッシュ
+1. git add .
+2. git commit -m "hogehoge"
+3. git push
 
