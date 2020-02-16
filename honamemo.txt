@@ -1,0 +1,6 @@
+# コミットコメントを修正する
+git commit --amend
+> $ git add -A
+> $ git commit -m "htmlを修正"
+> #あっ　今のコミット内容、cssの修正だった！書き直したい…！（心の声）
+> $ git commit --amend -m "cssを修正"
