@@ -4,3 +4,11 @@ git commit --amend
 > $ git commit -m "htmlを修正"
 > #あっ　今のコミット内容、cssの修正だった！書き直したい…！（心の声）
 > $ git commit --amend -m "cssを修正"
+
+# ローカルファイルをgithubにアップロードする
+1.githubを開く
+2.管理画面からUpload filesを押す
+3.対象ファイルをドラッグ＆ドロップ
+4.コミットメッセージを記入する
+5.コミット
+
